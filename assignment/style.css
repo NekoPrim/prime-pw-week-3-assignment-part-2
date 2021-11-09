@@ -1,0 +1,15 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/33/29/7e/33297e89a5a08c03d3cd5ce75243cf1c.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+  color: white;
+  text-align: center;
+}
+
+h1, h2 {
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+}
