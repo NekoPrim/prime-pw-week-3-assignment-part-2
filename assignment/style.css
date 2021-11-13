@@ -1,15 +1,26 @@
 body{
-  background-image: url("https://i.pinimg.com/originals/33/29/7e/33297e89a5a08c03d3cd5ce75243cf1c.jpg");
-  background-repeat: no-repeat;
-  background-size:  cover;
-  color: white;
-  text-align: center;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: trees;
+  animation-timing-function: ease-in-out;
+  background-size: cover;
+  margin: 0;
+}
+
+@keyframes trees {
+  0%, 33% {background-image: url("images/redWoods.jpeg");}
+  33%, 66% {background-image: url("images/redWoods2.jpeg");}
+  66%, 100% {background-image: url("images/redWoods3.jpeg");}
 }
 
 header {
   background-color: black;
   border: 1px solid white;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  color: white;
+  display: block;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-top: 5rem;
+  position: relative;
+  text-align: center;
 }
