@@ -2,25 +2,32 @@ body{
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-name: trees;
-  animation-timing-function: ease-in-out;
+  background-position: 0, 0;
   background-size: cover;
-  margin: 0;
 }
 
 @keyframes trees {
-  0%, 33% {background-image: url("images/redWoods.jpeg");}
-  33%, 66% {background-image: url("images/redWoods2.jpeg");}
-  66%, 100% {background-image: url("images/redWoods3.jpeg");}
+  0%, 100% {background-image: url("images/redWoods.jpeg");}
+  33% {background-image: url("images/redWoods2.jpeg");}
+  66% {background-image: url("images/redWoods3.jpeg");}
 }
 
 header {
   background-color: black;
   border: 1px solid white;
   color: white;
-  display: block;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
-  position: relative;
+  text-align: center;
+}
+
+.problems {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 10rem;
   text-align: center;
 }
